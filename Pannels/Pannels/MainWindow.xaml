@@ -1,0 +1,40 @@
+﻿<Window x:Class="Pannels.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pannels"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="51" Margin="39,31,0,0" VerticalAlignment="Top" Width="144" Background="#FFB0B0B0">
+            <Rectangle Height="20" Stroke="Black" Width="46" Fill="#FFFFA7A7"/>
+        </StackPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="117" Margin="584,31,0,0" VerticalAlignment="Top" Width="136" Orientation="Horizontal">
+            <WrapPanel.Background>
+                <SolidColorBrush Color="#FFD4D4D4" Opacity="1"/>
+            </WrapPanel.Background>
+            <Rectangle HorizontalAlignment="Center" Height="20" Stroke="Black" VerticalAlignment="Center" Width="46" Fill="#FFFFA7A7"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="117" Margin="249,56,0,0" VerticalAlignment="Top" Width="136" Orientation="Vertical">
+            <WrapPanel.Background>
+                <SolidColorBrush Color="#FFD4D4D4" Opacity="1"/>
+            </WrapPanel.Background>
+            <Rectangle HorizontalAlignment="Center" Height="20" Stroke="Black" VerticalAlignment="Center" Width="46" Fill="#FFFFA7A7"/>
+            <Rectangle HorizontalAlignment="Center" Height="20" Stroke="Black" VerticalAlignment="Center" Width="46" Fill="#FFFFA7A7"/>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Left" Height="133" Margin="279,241,0,0" VerticalAlignment="Top" Width="237" Orientation="Horizontal">
+            <WrapPanel.Background>
+                <SolidColorBrush Color="#FFD4D4D4" Opacity="1"/>
+            </WrapPanel.Background>
+            <Rectangle HorizontalAlignment="Center" Height="20" Stroke="Black" VerticalAlignment="Center" Width="46" Fill="#FFFFA7A7"/>
+        </WrapPanel>
+        <StackPanel HorizontalAlignment="Left" Height="100" Margin="39,286,0,0" VerticalAlignment="Top" Width="211" Background="#FFB0B0B0" Orientation="Horizontal">
+            <Rectangle Height="20" Stroke="Black" Width="46" Fill="#FFFFA7A7"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="51" Margin="564,241,0,0" VerticalAlignment="Top" Width="144" Background="#FFB0B0B0" Orientation="Vertical">
+            <Rectangle Height="20" Stroke="Black" Width="46" Fill="#FFFFA7A7"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
